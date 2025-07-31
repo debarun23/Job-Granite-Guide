@@ -1,139 +1,125 @@
-# 🎯 Job Granite Guide: AI-Powered Personalized Interview Preparation
+# 🎯 IBM Job Granite Guide: AI-Powered Personalized Interview Coach
 
-An AI-driven assistant to provide personalized interview coaching using IBM Watsonx and Retrieval-Augmented Generation (RAG). Built on IBM Cloud, this project delivers role-specific questions, real-time feedback, and model answers tailored to each candidate’s career journey and current industry needs.
-
----
-
-![interview-ai](interview_ai.jpg)
+> _An Interview Training AI Agent using IBM Watsonx, Granite-3B Model, and RAG._  
+> **Built during IBM SkillsBuild for Academia 2025**  
+> By **Debarun Das**
 
 ---
 
 ## 🧩 Problem Statement
 
-Job seekers today face difficulties preparing for interviews due to outdated, generic resources. Finding real-time, role-specific questions and actionable feedback covering both soft and technical skills is time-consuming and ineffective.
+Many job seekers rely on generic, outdated resources for interview preparation. These tools fail to provide:
+- Personalized interview questions
+- Up-to-date HR guidelines
+- Actionable feedback based on user profiles
 
 ---
 
-## 💡 Proposed Solution
+## 💡 Our Solution
 
-**Job Granite Guide** uses IBM Watsonx, Granite LLM, and RAG to simulate a personalized AI interview trainer. It understands a user's experience, adapts to their profile, and offers:
-- Customized questions based on job role and level  
-- Suggested model answers and tips for improvement  
-- Real-time, intelligent feedback grounded in current industry standards
+The **IBM Job Granite Guide** is an AI-powered virtual interview trainer built on IBM Watsonx.  
+It helps candidates prepare smarter and faster by offering:
+- 🎯 Role-specific question generation
+- 💬 Model answers with improvement tips
+- 🔁 Real-time feedback via a chat-based interface
 
 ---
 
 ## 🧠 Technologies Used
 
-- IBM Watsonx.ai Studio  
-- IBM Granite Foundation Model (LLM)  
-- Retrieval-Augmented Generation (RAG)  
-- NLP (Natural Language Processing)  
-- IBM Cloud Agent Lab  
-- IBM Watsonx Runtime
-
----
-
-## ☁️ IBM Cloud Services Used
-
-- IBM Watsonx AI Studio  
-- IBM Cloud Lite Account  
-- IBM Granite Model  
-- IBM Agentic AI Lab  
-- IBM Cloud IAM  
-- Vector Index for retrieval
-
----
-
-## 👥 End Users
-
-- Final-year students preparing for placements  
-- Working professionals switching careers  
-- Candidates targeting specific job roles  
-- HR professionals for mock interview testing  
-- Job portals looking to integrate real-time prep tools
-
----
-
-## 🌟 WOW Factors
-
-- Real-time personalized interview questions and feedback  
-- Adapts to user profile (fresher/experienced/domain-specific)  
-- Based on latest HR trends and job requirements  
-- Built using IBM Cloud and Watson tools  
-- Fast, dynamic, and up-to-date preparation platform  
-- Encourages holistic development: soft + technical skills
+| Category         | Tools & Services                            |
+|------------------|---------------------------------------------|
+| LLM & NLP        | IBM Granite 3B-8B-Instruct Model            |
+| Framework        | IBM Watsonx.ai Studio, Agentic AI Lab       |
+| Intelligence     | Retrieval-Augmented Generation (RAG)        |
+| Cloud Services   | IBM Cloud Runtime, Deployment Spaces        |
+| Storage          | IBM Cloud Object Storage                    |
 
 ---
 
 ## 🧪 Key Features
 
-- RAG-powered Q&A with feedback  
-- Dynamic generation of behavioral and technical questions  
-- IBM Granite LLM provides high-quality, natural responses  
-- Works across various job domains  
-- Potential to include voice interaction and peer mocks
+- Real-time interview Q&A (both technical and behavioral)
+- Adaptable to user’s job role and career level
+- Uses RAG to retrieve structured data
+- Agent handles off-topic queries gracefully
+- Ready-to-deploy via Watsonx runtime
 
 ---
 
-## 🚀 How It Works
+## 📸 Project Screenshots
 
-1. User inputs profile information or career goal  
-2. AI generates personalized question sets  
-3. Granite LLM provides model answers and tips  
-4. Feedback loop helps users improve response quality  
-5. Mock interview-like experience via web interface  
+### 🔹 Agent Home View
+![Agent Preview](Agent_preview.png)
 
----
+### 🔹 Smart Industry-Specific Answer Generation
+![Live Agent Answering](Agent_testing_1.png)
 
-## 🖼️ Screenshots
+### 🔹 Agentic Workflow Setup
+![Agent Builder](AI%20Agent%20page.png)
 
-<!-- Add images here like:
-![mock interface](mock_preview.jpg)
--->
+### 🔹 API Endpoints for Deployment
+![API Reference](API_reference.png)
 
----
+### 🔹 Preview in Deployment Space
+![Deployed Agent Preview](deployed.png)
 
-## 📌 How to Run or Deploy
+### 🔹 Deployment Overview
+![Deployment Status](Deployment_Space.png)
 
-1. Log in to [IBM Cloud](https://cloud.ibm.com)
-2. Go to Watsonx.ai Studio and create a new AI project  
-3. Use IBM Agentic AI Lab to build the logic  
-4. Configure Granite LLM + RAG for question generation  
-5. Deploy as a web agent or integrate with job platforms  
+### 🔹 IBM Granite LLM Details
+![Granite LLM Info](IBM_Granite_model.png)
 
----
-
-## 🛣️ Future Scope
-
-- Multilingual interview preparation  
-- Voice-based question and answer sessions  
-- Real-time peer interview simulator  
-- AI-based performance scoring  
-- Integration with LinkedIn and job boards  
-- Video-based feedback on recorded answers
+### 🔹 IBM Cloud Services Active
+![IBM Cloud Resources](Resource_list.png)
 
 ---
 
-## 👨‍💻 Developed By
+## ⚙️ How It Works
+
+1. User inputs an interview-related question (e.g. "How to boost confidence in interviews?")
+2. Watsonx's Granite LLM interprets and matches with intent
+3. RAG retrieves appropriate context or answer templates
+4. AI agent delivers feedback and follow-up suggestions in natural language
+
+---
+
+## 🚀 How to Deploy on IBM Cloud
+
+1. Sign up at [IBM Cloud Lite](https://cloud.ibm.com)
+2. Launch Watsonx.ai Studio → Open Agent Lab
+3. Use Granite-3B-8B-Instruct as the model
+4. Build prompts using `Agent Instructions`
+5. Deploy the model via Runtime environment
+6. Access API endpoints for integration or testing
+
+---
+
+## 🛠️ Developer & Contributor
 
 **Debarun Das**  
-B.Tech, Electronics & Communication Engineering  
-Future Institute of Engineering and Management  
-📍 Kolkata, India
+B.Tech, ECE | Future Institute of Engineering and Management  
+🌍 Kolkata, India  
+🔗 [LinkedIn (optional)](https://www.linkedin.com)
 
 ---
 
-## 🔗 Useful Links
+## 🔮 Future Scope
 
-- [IBM Cloud](https://cloud.ibm.com)  
-- [Watsonx.ai](https://www.ibm.com/products/watsonx-ai)  
-- [IBM SkillsBuild](https://skillsbuild.org)
-
----
-
-> Created with 💡 during IBM SkillsBuild for Academia 2025 Hackathon  
-> 💼 Guided by Edunet Foundation x IBM
+- 🎙️ Voice-based question & feedback
+- 🌐 Multilingual support
+- 🤝 Peer-to-peer mock interview integration
+- 📹 AI feedback on video answers
+- 📱 Mobile App with real-time scoring
 
 ---
 
+## 📚 References
+
+- [IBM Watsonx.ai](https://www.ibm.com/products/watsonx-ai)
+- [IBM Granite Foundation Models](https://www.ibm.com/blog/foundation-models)
+- [Agentic AI Documentation](https://www.ibm.com/docs/en/watsonx)
+
+---
+
+> _Created with 💙 using IBM Cloud technologies during the IBM x Edunet Hackathon 2025_
