@@ -1,27 +1,32 @@
 # 🎯 IBM Job Granite Guide: AI-Powered Personalized Interview Coach
 
-> _An Interview Training AI Agent using IBM Watsonx, Granite-3B Model, and RAG._  
-> **Built during IBM SkillsBuild for Academia 2025**  
+> _An Interview Training AI Agent using IBM Watsonx, Granite-3B Model, and RAG_  
+> **Hackathon Project | IBM SkillsBuild for Academia 2025**  
 > By **Debarun Das**
 
 ---
 
 ## 🧩 Problem Statement
 
-Many job seekers rely on generic, outdated resources for interview preparation. These tools fail to provide:
-- Personalized interview questions
-- Up-to-date HR guidelines
-- Actionable feedback based on user profiles
+In today's dynamic job market, candidates struggle with outdated and generic interview preparation tools. These platforms often:
+- Fail to adapt to individual career profiles
+- Lack real-time relevance
+- Provide minimal feedback for improvement
 
 ---
 
 ## 💡 Our Solution
 
-The **IBM Job Granite Guide** is an AI-powered virtual interview trainer built on IBM Watsonx.  
-It helps candidates prepare smarter and faster by offering:
-- 🎯 Role-specific question generation
-- 💬 Model answers with improvement tips
-- 🔁 Real-time feedback via a chat-based interface
+**IBM Job Granite Guide** is an AI-powered virtual interview assistant that delivers personalized coaching using:
+- **Granite-3B-Instruct LLM**
+- **Retrieval-Augmented Generation (RAG)**
+- **Agentic AI workflows**
+- **IBM Cloud Deployment**
+
+It generates:
+- Tailored interview questions (technical + behavioral)
+- Model answers and improvement tips
+- HR-standard recommendations and role insights
 
 ---
 
@@ -29,97 +34,112 @@ It helps candidates prepare smarter and faster by offering:
 
 | Category         | Tools & Services                            |
 |------------------|---------------------------------------------|
-| LLM & NLP        | IBM Granite 3B-8B-Instruct Model            |
+| LLM & NLP        | IBM Granite 3.3B-8B-Instruct Model          |
+| AI Intelligence  | Few-shot prompting, RAG, NLP pipelines      |
 | Framework        | IBM Watsonx.ai Studio, Agentic AI Lab       |
-| Intelligence     | Retrieval-Augmented Generation (RAG)        |
-| Cloud Services   | IBM Cloud Runtime, Deployment Spaces        |
+| Deployment       | IBM Watsonx Runtime, Deployment Spaces      |
 | Storage          | IBM Cloud Object Storage                    |
+| API Access       | REST endpoint for model inferencing         |
+
+---
+
+## 📜 Core Research Referenced
+
+- 📄 **Language Models are Few-Shot Learners**  
+  _Brown et al., 2020 (GPT-3 Paper)_  
+  Demonstrates that large language models can perform tasks with minimal examples, directly informing our use of prompt-based interview coaching.  
+  **File included**: `language_models_are_few-shot_learners-Paper.pdf`
 
 ---
 
 ## 🧪 Key Features
 
-- Real-time interview Q&A (both technical and behavioral)
-- Adaptable to user’s job role and career level
-- Uses RAG to retrieve structured data
-- Agent handles off-topic queries gracefully
-- Ready-to-deploy via Watsonx runtime
+- ✅ Personalized interview Q&A (role and profile aware)
+- 🎯 Behavioral + Technical + Industry-specific questions
+- 💬 Model answers with soft skill feedback
+- 🔁 Feedback loop powered by RAG
+- 🌐 API-enabled deployment and testing on IBM Cloud
 
 ---
 
-## 📸 Project Screenshots
+## 🖼️ Project Snapshots
 
-### 🔹 Agent Home View
+### 🔹 Agent Preview
 ![Agent Preview](Agent_preview.png)
 
-### 🔹 Smart Industry-Specific Answer Generation
-![Live Agent Answering](Agent_testing_1.png)
+### 🔹 AI-Generated Industry Response
+![Agent QA](Agent_testing_1.png)
 
-### 🔹 Agentic Workflow Setup
-![Agent Builder](AI%20Agent%20page.png)
+### 🔹 Agent Instruction Setup
+![AI Lab Page](AI%20Agent%20page.png)
 
-### 🔹 API Endpoints for Deployment
+### 🔹 API Endpoints for Inference
 ![API Reference](API_reference.png)
 
-### 🔹 Preview in Deployment Space
-![Deployed Agent Preview](deployed.png)
+### 🔹 Web Deployment Preview
+![Live Agent](deployed.png)
 
-### 🔹 Deployment Overview
-![Deployment Status](Deployment_Space.png)
+### 🔹 Deployment Management View
+![Deployment Space](Deployment_Space.png)
 
-### 🔹 IBM Granite LLM Details
-![Granite LLM Info](IBM_Granite_model.png)
+### 🔹 Granite LLM Reference
+![Granite Model Info](IBM_Granite_model.png)
 
-### 🔹 IBM Cloud Services Active
-![IBM Cloud Resources](Resource_list.png)
+### 🔹 IBM Cloud Resources
+![Cloud Resource View](Resource_list.png)
 
 ---
 
 ## ⚙️ How It Works
 
-1. User inputs an interview-related question (e.g. "How to boost confidence in interviews?")
-2. Watsonx's Granite LLM interprets and matches with intent
-3. RAG retrieves appropriate context or answer templates
-4. AI agent delivers feedback and follow-up suggestions in natural language
+1. **User inputs** a career question or interview query
+2. **Granite LLM** interprets the prompt contextually
+3. **RAG** augments the answer with reliable HR or domain data
+4. **Agent responds** with questions, tips, or insights based on job role
 
 ---
 
-## 🚀 How to Deploy on IBM Cloud
+## 🚀 How to Deploy
 
-1. Sign up at [IBM Cloud Lite](https://cloud.ibm.com)
-2. Launch Watsonx.ai Studio → Open Agent Lab
-3. Use Granite-3B-8B-Instruct as the model
-4. Build prompts using `Agent Instructions`
-5. Deploy the model via Runtime environment
-6. Access API endpoints for integration or testing
+1. Go to [IBM Cloud](https://cloud.ibm.com)
+2. Open **Watsonx.ai Studio → Agentic AI Lab**
+3. Select the **Granite-3B-8B-Instruct** model
+4. Configure the **Agent Instructions** panel
+5. Preview in the chat interface
+6. Deploy via Watsonx runtime
+7. Use **REST API** for external integration (see screenshot)
 
 ---
 
-## 🛠️ Developer & Contributor
+## 🧑‍💻 Developed By
 
 **Debarun Das**  
-B.Tech, ECE | Future Institute of Engineering and Management  
-🌍 Kolkata, India  
-🔗 [LinkedIn (optional)](https://www.linkedin.com)
+Final Year B.Tech, Electronics & Communication Engineering  
+Future Institute of Engineering and Management  
+📍 Kolkata, India
 
 ---
 
-## 🔮 Future Scope
+## 🛣️ Future Scope
 
-- 🎙️ Voice-based question & feedback
-- 🌐 Multilingual support
-- 🤝 Peer-to-peer mock interview integration
-- 📹 AI feedback on video answers
-- 📱 Mobile App with real-time scoring
-
----
-
-## 📚 References
-
-- [IBM Watsonx.ai](https://www.ibm.com/products/watsonx-ai)
-- [IBM Granite Foundation Models](https://www.ibm.com/blog/foundation-models)
-- [Agentic AI Documentation](https://www.ibm.com/docs/en/watsonx)
+- 🎙️ Voice-activated mock interviews
+- 🌐 Multilingual support (Watson Language Translator)
+- 📹 AI-based feedback on video answers
+- 🤝 Peer-to-peer mock interview simulator
+- 📲 Mobile App for 24x7 interview readiness
 
 ---
 
-> _Created with 💙 using IBM Cloud technologies during the IBM x Edunet Hackathon 2025_
+## 📚 References & Resources
+
+- [📘 Language Models are Few-Shot Learners (GPT-3 Paper)](https://arxiv.org/abs/2005.14165)  
+  Also included locally as: `language_models_are_few-shot_learners-Paper.pdf`
+- [IBM Watsonx.ai Docs](https://www.ibm.com/docs/en/watsonx)
+- [Granite Foundation Models](https://www.ibm.com/blog/foundation-models)
+- [Agentic Workflows](https://www.ibm.com/docs/en/watsonx/agent-lab)
+- [RAG for LLMs](https://www.ibm.com/docs/en/watsonx/llm/rag)
+
+---
+
+> _Created with 💙 during the IBM x Edunet Hackathon 2025_  
+> Hosted entirely on **IBM Cloud Lite Account**
