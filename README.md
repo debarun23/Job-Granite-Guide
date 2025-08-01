@@ -134,6 +134,7 @@ Future Institute of Engineering and Management
 
 - [📘 Language Models are Few-Shot Learners (GPT-3 Paper)](https://arxiv.org/abs/2005.14165)  
   Also included locally as: `language_models_are_few-shot_learners-Paper.pdf`
+- Project PPT: `project_PPT (PDF).pdf`
 - [IBM Watsonx.ai Docs](https://www.ibm.com/docs/en/watsonx)
 - [Granite Foundation Models](https://www.ibm.com/blog/foundation-models)
 - [Agentic Workflows](https://www.ibm.com/docs/en/watsonx/agent-lab)
