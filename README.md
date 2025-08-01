@@ -142,4 +142,4 @@ Future Institute of Engineering and Management
 ---
 
 > _Created with 💙 during the IBM x Edunet Hackathon 2025_  
-> Hosted entirely on **IBM Cloud Lite Account**
+> Hosted entirely on **IBM Cloud Account**
